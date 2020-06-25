@@ -17,7 +17,7 @@ class CanvasView: UIView {
     // var multiLines = [[CGPoint]]()
     
     //Variable for the stroke colour
-    var strokeColour : UIColor = UIColor.white
+    var strokeColour : UIColor = UIColor.black
     
     //Variable for the stroke width
     var strokeWidth : CGFloat = 2.0
