@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF723D2324A3ADF400300471 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF723D2224A3ADF400300471 /* StorageService.swift */; };
+		EF9AC81E24A3C56E0006F20C /* ActivityStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9AC81D24A3C56E0006F20C /* ActivityStackView.swift */; };
+		EF9AC82024A3CC6C0006F20C /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9AC81F24A3CC6C0006F20C /* ActivityView.swift */; };
+		EF9AC82224A3D6190006F20C /* ColourButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9AC82124A3D6190006F20C /* ColourButton.swift */; };
+		EF9AC82424A3DFAC0006F20C /* BaseNVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9AC82324A3DFAC0006F20C /* BaseNVC.swift */; };
+		EF9AC82624A46B280006F20C /* AllDrawingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9AC82524A46B280006F20C /* AllDrawingsVC.swift */; };
+		EF9AC82824A474890006F20C /* ImageCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9AC82724A474890006F20C /* ImageCVC.swift */; };
+		EF9AC82A24A4A8490006F20C /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9AC82924A4A8490006F20C /* LoginVC.swift */; };
+		EF9AC82C24A4AFD10006F20C /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9AC82B24A4AFD10006F20C /* AuthService.swift */; };
+		EFE72E7224A31C3C005E2AAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE72E7124A31C3C005E2AAA /* AppDelegate.swift */; };
+		EFE72E7424A31C3D005E2AAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE72E7324A31C3D005E2AAA /* SceneDelegate.swift */; };
+		EFE72E7B24A31C41005E2AAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE72E7A24A31C41005E2AAA /* Assets.xcassets */; };
+		EFE72E7E24A31C41005E2AAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE72E7C24A31C41005E2AAA /* LaunchScreen.storyboard */; };
+		EFE72E8924A31D62005E2AAA /* InitialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE72E8824A31D62005E2AAA /* InitialVC.swift */; };
+		EFE72E8B24A32A03005E2AAA /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE72E8A24A32A03005E2AAA /* CanvasView.swift */; };
+		EFE72E8D24A343AB005E2AAA /* LineProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE72E8C24A343AB005E2AAA /* LineProperties.swift */; };
+		EFE72E8F24A38FEF005E2AAA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFE72E8E24A38FEF005E2AAA /* GoogleService-Info.plist */; };
+		EFE72E9124A3A061005E2AAA /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE72E9024A3A061005E2AAA /* DatabaseService.swift */; };
+		F8548B9D4BDE873902843CC9 /* Pods_DrawingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 138A219541E6B5AEC07EB319 /* Pods_DrawingApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		138A219541E6B5AEC07EB319 /* Pods_DrawingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DrawingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A1C6A1A022A65BD0108EC11 /* Pods-DrawingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawingApp.debug.xcconfig"; path = "Target Support Files/Pods-DrawingApp/Pods-DrawingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8CAEF549741391E96A4318E5 /* Pods-DrawingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawingApp.release.xcconfig"; path = "Target Support Files/Pods-DrawingApp/Pods-DrawingApp.release.xcconfig"; sourceTree = "<group>"; };
+		EF723D2224A3ADF400300471 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		EF9AC81D24A3C56E0006F20C /* ActivityStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityStackView.swift; sourceTree = "<group>"; };
+		EF9AC81F24A3CC6C0006F20C /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		EF9AC82124A3D6190006F20C /* ColourButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourButton.swift; sourceTree = "<group>"; };
+		EF9AC82324A3DFAC0006F20C /* BaseNVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNVC.swift; sourceTree = "<group>"; };
+		EF9AC82524A46B280006F20C /* AllDrawingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDrawingsVC.swift; sourceTree = "<group>"; };
+		EF9AC82724A474890006F20C /* ImageCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCVC.swift; sourceTree = "<group>"; };
+		EF9AC82924A4A8490006F20C /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		EF9AC82B24A4AFD10006F20C /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		EFE72E6E24A31C3C005E2AAA /* DrawingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE72E7124A31C3C005E2AAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFE72E7324A31C3D005E2AAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EFE72E7A24A31C41005E2AAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFE72E7D24A31C41005E2AAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFE72E7F24A31C41005E2AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFE72E8824A31D62005E2AAA /* InitialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialVC.swift; sourceTree = "<group>"; };
+		EFE72E8A24A32A03005E2AAA /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		EFE72E8C24A343AB005E2AAA /* LineProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineProperties.swift; sourceTree = "<group>"; };
+		EFE72E8E24A38FEF005E2AAA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EFE72E9024A3A061005E2AAA /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DatabaseService.swift; path = "../New Group/DatabaseService.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFE72E6B24A31C3C005E2AAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8548B9D4BDE873902843CC9 /* Pods_DrawingApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		305023C6164C290A6ADEAD24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A1C6A1A022A65BD0108EC11 /* Pods-DrawingApp.debug.xcconfig */,
+				8CAEF549741391E96A4318E5 /* Pods-DrawingApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E01DAFB9D60FB401DC8D6D9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				138A219541E6B5AEC07EB319 /* Pods_DrawingApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFE72E6524A31C3C005E2AAA = {
+			isa = PBXGroup;
+			children = (
+				EFE72E7024A31C3C005E2AAA /* DrawingApp */,
+				EFE72E6F24A31C3C005E2AAA /* Products */,
+				305023C6164C290A6ADEAD24 /* Pods */,
+				E01DAFB9D60FB401DC8D6D9F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EFE72E6F24A31C3C005E2AAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFE72E6E24A31C3C005E2AAA /* DrawingApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFE72E7024A31C3C005E2AAA /* DrawingApp */ = {
+			isa = PBXGroup;
+			children = (
+				EFE72E9224A3A57F005E2AAA /* Services */,
+				EFE72E8724A31D40005E2AAA /* CustomElements */,
+				EFE72E8624A31D36005E2AAA /* Model */,
+				EFE72E8524A31D26005E2AAA /* Controllers */,
+				EFE72E7124A31C3C005E2AAA /* AppDelegate.swift */,
+				EFE72E7324A31C3D005E2AAA /* SceneDelegate.swift */,
+				EFE72E7A24A31C41005E2AAA /* Assets.xcassets */,
+				EFE72E7C24A31C41005E2AAA /* LaunchScreen.storyboard */,
+				EFE72E7F24A31C41005E2AAA /* Info.plist */,
+				EFE72E8E24A38FEF005E2AAA /* GoogleService-Info.plist */,
+			);
+			path = DrawingApp;
+			sourceTree = "<group>";
+		};
+		EFE72E8524A31D26005E2AAA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF9AC82324A3DFAC0006F20C /* BaseNVC.swift */,
+				EF9AC82924A4A8490006F20C /* LoginVC.swift */,
+				EFE72E8824A31D62005E2AAA /* InitialVC.swift */,
+				EF9AC82524A46B280006F20C /* AllDrawingsVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EFE72E8624A31D36005E2AAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EFE72E8C24A343AB005E2AAA /* LineProperties.swift */,
+			);
+			name = Model;
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		EFE72E8724A31D40005E2AAA /* CustomElements */ = {
+			isa = PBXGroup;
+			children = (
+				EFE72E8A24A32A03005E2AAA /* CanvasView.swift */,
+				EF9AC81D24A3C56E0006F20C /* ActivityStackView.swift */,
+				EF9AC81F24A3CC6C0006F20C /* ActivityView.swift */,
+				EF9AC82124A3D6190006F20C /* ColourButton.swift */,
+				EF9AC82724A474890006F20C /* ImageCVC.swift */,
+			);
+			path = CustomElements;
+			sourceTree = "<group>";
+		};
+		EFE72E9224A3A57F005E2AAA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EFE72E9024A3A061005E2AAA /* DatabaseService.swift */,
+				EF723D2224A3ADF400300471 /* StorageService.swift */,
+				EF9AC82B24A4AFD10006F20C /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFE72E6D24A31C3C005E2AAA /* DrawingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE72E8224A31C41005E2AAA /* Build configuration list for PBXNativeTarget "DrawingApp" */;
+			buildPhases = (
+				92CD656E4CAEF6C1DC4D0A4E /* [CP] Check Pods Manifest.lock */,
+				EFE72E6A24A31C3C005E2AAA /* Sources */,
+				EFE72E6B24A31C3C005E2AAA /* Frameworks */,
+				EFE72E6C24A31C3C005E2AAA /* Resources */,
+				9A8C5547A6600CCB45ACBBF9 /* [CP] Embed Pods Frameworks */,
+				536689B24B09A9F8C7DE6751 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawingApp;
+			productName = DrawingApp;
+			productReference = EFE72E6E24A31C3C005E2AAA /* DrawingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFE72E6624A31C3C005E2AAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Abhishek Dantale";
+				TargetAttributes = {
+					EFE72E6D24A31C3C005E2AAA = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = EFE72E6924A31C3C005E2AAA /* Build configuration list for PBXProject "DrawingApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFE72E6524A31C3C005E2AAA;
+			productRefGroup = EFE72E6F24A31C3C005E2AAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFE72E6D24A31C3C005E2AAA /* DrawingApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFE72E6C24A31C3C005E2AAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE72E8F24A38FEF005E2AAA /* GoogleService-Info.plist in Resources */,
+				EFE72E7E24A31C41005E2AAA /* LaunchScreen.storyboard in Resources */,
+				EFE72E7B24A31C41005E2AAA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		536689B24B09A9F8C7DE6751 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DrawingApp/Pods-DrawingApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DrawingApp/Pods-DrawingApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DrawingApp/Pods-DrawingApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92CD656E4CAEF6C1DC4D0A4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DrawingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A8C5547A6600CCB45ACBBF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DrawingApp/Pods-DrawingApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DrawingApp/Pods-DrawingApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DrawingApp/Pods-DrawingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFE72E6A24A31C3C005E2AAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9AC81E24A3C56E0006F20C /* ActivityStackView.swift in Sources */,
+				EF9AC82824A474890006F20C /* ImageCVC.swift in Sources */,
+				EF9AC82A24A4A8490006F20C /* LoginVC.swift in Sources */,
+				EFE72E9124A3A061005E2AAA /* DatabaseService.swift in Sources */,
+				EFE72E8924A31D62005E2AAA /* InitialVC.swift in Sources */,
+				EFE72E8D24A343AB005E2AAA /* LineProperties.swift in Sources */,
+				EFE72E7224A31C3C005E2AAA /* AppDelegate.swift in Sources */,
+				EF9AC82024A3CC6C0006F20C /* ActivityView.swift in Sources */,
+				EFE72E8B24A32A03005E2AAA /* CanvasView.swift in Sources */,
+				EFE72E7424A31C3D005E2AAA /* SceneDelegate.swift in Sources */,
+				EF723D2324A3ADF400300471 /* StorageService.swift in Sources */,
+				EF9AC82224A3D6190006F20C /* ColourButton.swift in Sources */,
+				EF9AC82C24A4AFD10006F20C /* AuthService.swift in Sources */,
+				EF9AC82424A3DFAC0006F20C /* BaseNVC.swift in Sources */,
+				EF9AC82624A46B280006F20C /* AllDrawingsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EFE72E7C24A31C41005E2AAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFE72E7D24A31C41005E2AAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFE72E8024A31C41005E2AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFE72E8124A31C41005E2AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFE72E8324A31C41005E2AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A1C6A1A022A65BD0108EC11 /* Pods-DrawingApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DSJM2CWJL4;
+				INFOPLIST_FILE = DrawingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AbhishekHDantale.DrawingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFE72E8424A31C41005E2AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CAEF549741391E96A4318E5 /* Pods-DrawingApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DSJM2CWJL4;
+				INFOPLIST_FILE = DrawingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AbhishekHDantale.DrawingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFE72E6924A31C3C005E2AAA /* Build configuration list for PBXProject "DrawingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE72E8024A31C41005E2AAA /* Debug */,
+				EFE72E8124A31C41005E2AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFE72E8224A31C41005E2AAA /* Build configuration list for PBXNativeTarget "DrawingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE72E8324A31C41005E2AAA /* Debug */,
+				EFE72E8424A31C41005E2AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFE72E6624A31C3C005E2AAA /* Project object */;
+}
